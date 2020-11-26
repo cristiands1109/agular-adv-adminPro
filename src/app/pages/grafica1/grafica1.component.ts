@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Colors } from 'ng2-charts';
+// import { ChartType } from 'chart.js';
 
 
 @Component({

@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
 // modulo
 import { SharedModule } from '../shared/shared.module';
 import { from } from 'rxjs';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -26,13 +27,15 @@ import { from } from 'rxjs';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   exports:[    
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,

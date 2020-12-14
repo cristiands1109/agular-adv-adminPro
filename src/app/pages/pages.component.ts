@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { url } from 'inspector';
 import { SettingsService } from '../services/settings.service';
+// import {customInitFuntions} from '../../assets/js/custom.js';
 
 declare function customInitFunctions ();
 
@@ -17,8 +18,7 @@ export class PagesComponent implements OnInit {
   constructor( private settingsService: SettingsService) { }
 
   ngOnInit(): void {
-    
-    customInitFunctions()
+    customInitFunctions();
 
   }
 

@@ -8,7 +8,7 @@ export class SettingsService {
   private linkTheme = document.querySelector('#theme')
 
   constructor() { 
-    console.log('Setting Service Init');
+    // console.log('Setting Service Init');
     const url = localStorage.getItem('theme') || './assets/css/colors/purple-dark.css';
     
     this.linkTheme.setAttribute('href',url);
